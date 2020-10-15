@@ -1,0 +1,29 @@
+#
+related: your-query  [ it will return content which is related to query]
+#
+" query "  [ it will return exact search ]
+#
+" query " - exclude-keyword  [ it will return exact search which does not contain mentioned keyword followed by - ]
+#
+(Bill or Melinda) gates  [ search both maching content names. Only return bill or wiliam]
+#
+(Bill and gates)   [ only search those contents which match both queries]
+#
+intitle: your-title-to-search [it will search only the titles which are maching]
+#
+site: site-name filetype:pdf [it will return only pdfs from that site]
+#
+"query *" [ * it means after query anything can come]
+
+#########
+Related Search
+File Type
+Search Operators +-
+Asterisk *
+Nearby
+Cached
+Search within sites
+Date Search
+Stock Prices (aapl, goog, amzn)
+Title Search (intitle)
+Advance Search
